@@ -1,0 +1,4 @@
+name = "DualNumbers"
+uuid = "fdc30bcc-fb20-43e3-b8c2-ecac5bd3af0c"
+version = "0.1.0"
+authors = ["akinf <akinfenwaas@gmail.com>"]

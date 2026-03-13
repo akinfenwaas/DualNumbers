@@ -99,29 +99,18 @@ A dual number has the form
 
 
 
-\\\[
-
-x + x'\\varepsilon
+\\\[ x + x'\\varepsilon
 
 \\]
 
-
-
 where
-
-
-
 \- \\(x\\) = function value
 
 \- \\(x'\\) = derivative
 
 \- \\(\\varepsilon^2 = 0\\)
 
-
-
 When a function is evaluated at a dual number:
-
-
 
 \\\[
 
@@ -129,176 +118,71 @@ f(x + \\varepsilon) = f(x) + f'(x)\\varepsilon
 
 \\]
 
-
-
 Thus the derivative appears automatically in the coefficient of \\(\\varepsilon\\).
 
-
-
 Example:
-
-
-
 \\\[
-
 f(x) = x^2
-
 \\]
-
-
 
 Evaluate at
-
-
-
 \\\[
-
 x + \\varepsilon
-
 \\]
-
-
-
 \\\[
-
 (x+\\varepsilon)^2 = x^2 + 2x\\varepsilon
-
 \\]
-
-
 
 Therefore:
-
-
-
 \- function value = \\(x^2\\)
-
 \- derivative = \\(2x\\)
 
-
-
 This is the basis of \*\*forward-mode automatic differentiation\*\*.
-
-
-
 ---
-
-
-
 \# Features
-
-
-
 \- Parametric \*\*Dual number type\*\*
-
 \- Subtype of Julia's `Number`
-
 \- Automatic type promotion
-
 \- Mixed scalar–dual arithmetic
-
 \- Operator overloading for
-
-
-
 &nbsp; - `+`
-
 &nbsp; - `-`
-
 &nbsp; - `\*`
-
 &nbsp; - `/`
-
 &nbsp; - `^`
-
-
-
 \- Supported elementary functions
-
-
-
 &nbsp; - `sin`
-
 &nbsp; - `cos`
-
 &nbsp; - `tan`
-
 &nbsp; - `exp`
-
 &nbsp; - `sqrt`
-
 &nbsp; - `log`
-
 &nbsp; - `asin`
-
 &nbsp; - `acos`
-
-
-
 \- Hyperbolic functions
-
-
-
 &nbsp; - `sinh`
-
 &nbsp; - `cosh`
-
 &nbsp; - `tanh`
-
-
-
 \- Comparison operators
-
-
-
 &nbsp; - `==`
-
 &nbsp; - `<`
-
 &nbsp; - `<=`
-
-
-
 \- Higher-order derivatives via repeated differentiation
 
 
 
 ---
-
-
-
 \# Installation
-
-
-
 **## Option 1 — Local Module** 
-
 Save the file as:
-
-
-
 **DualNumbers.jl**
-
-
-
 Then load it:
-
-
-
 ```julia
-
 include("DualNumbers.jl")
-
 using .DualNumbers
 
 ## **Option 2 — As a Julia Package**
-
-
-
 Recommended directory structure:
-
-
-
 DualNumbers/
 
 │
@@ -695,188 +579,35 @@ using DualNumbers
 
 
 Run tests with
-
-
-
 Pkg.test()
 
 Limitations
-
-
-
 **Current limitations include:**
-
-
-
 Only scalar functions supported
-
-
-
 Limited elementary function coverage
-
-
-
 Higher-order derivatives implemented via repeated differentiation
-
-
-
 No Jacobian or gradient utilities
-
-
-
 No vector automatic differentiation
 
-
-
-
-
-
-
 **Future Improvements**
-
-
-
 Possible extensions:
-
-
-
 nested dual numbers for efficient higher-order derivatives
-
-
-
 vector-valued differentiation
-
-
-
 Jacobian and Hessian computation
-
-
-
 additional functions (atan, abs, etc.)
-
-
-
 GPU compatibility
-
-
-
 performance optimization
-
-
-
 documentation generation using Documenter.jl
 
-
-
 License
-
-
-
 MIT License
 
-
-
-
-
 Author
-
 Ayobami Samuel Akinfenwa
-
 PhD Researcher — Mechanical Engineering
-
 Georgia Southern University
-
-
-
 Research Area:
-
-
-
 Human-Robot Interaction
-
-
-
 Biomedical Signal Processing
-
-
-
 Multimodal AI Systems
-
-
-
 Scientific Computing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

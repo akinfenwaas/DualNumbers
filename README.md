@@ -1,5 +1,5 @@
 Hello, 
-You are welcome to this little Automatic Differentiation (AD) tool using Julia - Dual Number. This is a homework assignment assigned by Dr. Hayri Sezer of the Department of Mechanical. Dr. Sezer is a faculty member in the Department of Mechanical Engineering at Georgia Southern University, Statesboro Campus, with a research area in Fuel cells, batteries, Fire dynamics, and combustion. You can read more about his work at **https://scholar.google.com/citations?user=eu\_kVXMAAAAJ\&hl=en** 
+You are welcome to this little Automatic Differentiation (AD) tool using Julia - Dual Number. This is a homework assignment submitted to Dr. Hayri Sezer of the Department of Mechanical. Dr. Sezer is a faculty member in the Department of Mechanical Engineering at Georgia Southern University, Statesboro Campus, with a research area in Fuel cells, batteries, Fire dynamics, and combustion. You can read more about his work at **https://scholar.google.com/citations?user=eu\_kVXMAAAAJ\&hl=en** 
 
 
 **While I am still learning. I want to acknowledge that I did not write all the code on my own. I sought support of artificial intelligence and other tools and text. And the code may be updated at some point or another with new things added to it. So you can always get an improved version.** 
